@@ -11,7 +11,7 @@
     <h1 class="heading">PING-PONG</h1>
   </center>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3" style="background-color:gray">
     <h3>About Ping Pong!</h3>
   <p>Created By</p>
   <p>Francis Wanjai</p>
@@ -33,12 +33,18 @@
       <li>Numbers divisible by 5 will become 'PONG'</li>
       <li>Numbers divisible by 15 will become 'PINGPONG'</li>
     </ol>
-    <form id="inputfield">
+  <div id="inputfield">
+    <form>
     <label for="EYN">Enter Your Number:</label>
     <input id="EYN" class="form-control" type="number" style="width:25%;">
     <br>
     <button type="submit" id="submit">Play!</button>
   </form>
+  <br><br><br>
+  <p>Your Results wil be displayed below</p>
+  <ul id="answer" style="color:red;">
+  </ul>
+  </div>
   </body>
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/scripts.js"></script>
